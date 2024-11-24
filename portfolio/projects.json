@@ -77,7 +77,7 @@
     "image": "media/images/Todo.PNG",
     "github": "project.github_link",
     "youtube": "media/videos/todo.mp4",
-    "details": "comin_soon.html"
+    "details": "/todo/index.html"
   },
   {
     "name": "Product App",

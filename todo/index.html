@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>To do List</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="sheet_title">To Do List</h1>
+    </header>
+    <section class="container">
+      <div class="backdrop hidden"></div>
+      <div class="form-container">
+        <form class="todo-form">
+          <input type="text" class="todo-input" placeholder="Enter Your Task "/>
+          <button type="submit" class="add-todo">
+            <i class="fas fa-plus-circle"></i>
+          </button>
+        </form>
+        <div class="select">
+          <select class="filter-todo" name="todo">
+            <option value="all">All</option>
+            <option value="completed">Complete</option>
+            <option value="uncompleted">Uncompleted</option>
+          </select>
+        </div>
+      </div>
+      <div class="todo-container">
+        <ul class="todo-list">
+          <!-- <li class="todo">
+            <p class="todo-title">To do #1</p>
+            <div class="todo-detail">
+              <span class="todo-createTime">1402/1/28</span>
+              <span class="todo-updatedDate">1402/1/28</span>
+              <span class="todo-CompletedDate">1402/1/28</span>
+              <button><i class="fa-regular fa-pen-to-square"></i></button>
+              <button><i class="fa-regular fa-square-check"></i></button>
+              <button><i class="fa-regular fa-trash-can"></i></button>
+            </div>
+          </li>-->
+        </ul>
+      </div>
+    </section>
+
+    <div class="modal warning-modal hidden">
+      <div class="modal__header warning">
+        <h2>Warning!</h2>
+        <button class="close-modal warning">&times;</button>
+      </div>
+      <p>This title was added before.</p>
+    </div>
+
+    <div class="modal edit-modal hidden">
+      <div class="modal__header edit">
+        <h2>Edit!</h2>
+        <button class="close-modal edit">&times;</button>
+      </div>
+      <p>Edit the title.</p>
+      <form class="edit-form">
+        <input type="text" class="edit-input" />
+        <button type="submit" class="edit-todo">
+          <i class="fas fa-plus-circle"></i>
+        </button>
+      </form>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
