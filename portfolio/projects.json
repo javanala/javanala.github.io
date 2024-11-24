@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Google Search",
+    "description": "Design a front-end for Google Search.",
+    "special": "",
+    "technologies": ["HTML", "CSS"],
+    "image": "media/images/p0.JPG",
+    "github": "https://github.com/yourgithubusername/project-repo",
+    "youtube": "https://youtu.be/1mLwYOyaO60",
+    "details": "https://cs50.harvard.edu/web/2020/projects/0/search/"
+  },
+  {
+    "name": "Wikipedia",
+    "description": "Design a Wikipedia-like online encyclopedia.",
+    "special": "",
+    "technologies": ["HTML", "CSS", "Python", "Django"],
+    "image": "media/images/p1.JPG",
+    "github": "https://github.com/yourgithubusername/project-repo",
+    "youtube": "https://youtu.be/SsY7fT3l7js",
+    "details": "https://cs50.harvard.edu/web/2020/projects/1/wiki/"
+  },
+  {
+    "name": "Commerce",
+    "description": "Design an eBay-like e-commerce auction site.",
+    "special": "",
+    "technologies": ["HTML", "CSS", "Python", "Django"],
+    "image": "media/images/p2.JPG",
+    "github": "https://github.com/yourgithubusername/project-repo",
+    "youtube": "https://youtu.be/nLsAP4aouaQ",
+    "details": "https://cs50.harvard.edu/web/2020/projects/2/commerce/"
+  },
+  {
+    "name": "Mail",
+    "description": "Design a front-end for an email client that makes send and receive API calls.",
+    "special": "",
+    "technologies": ["HTML", "CSS", "JavaScript", "Python", "Django"],
+    "image": "media/images/p3.JPG",
+    "github": "https://github.com/yourgithubusername/project-repo",
+    "youtube": "https://youtu.be/MMuURDqjeFo",
+    "details": "https://cs50.harvard.edu/web/2020/projects/3/mail/"
+  },
+  {
+    "name": "Network",
+    "description": "Design a Twitter-like social network website to make posts and follow users.",
+    "special": "",
+    "technologies": ["HTML/CSS", "JavaScript", "Python", "Django", "Bootstrap"],
+    "image": "media/images/p4.JPG",
+    "github": "https://github.com/yourgithubusername/project-repo",
+    "youtube": "https://youtu.be/Jpjk2Iz_4qc",
+    "details": "https://cs50.harvard.edu/web/2020/projects/4/network/"
+  },
+  {
+    "name": "Capstone Project",
+    "description": "Design a full-stack Capstone project that combines multiple elements from the course.",
+    "special": "My passion applying what I've learned. 😊",
+    "technologies": ["HTML", "CSS", "JavaScript", "Python", "Django"],
+    "image": "media/images/p5.PNG",
+    "github": "https://github.com/yourgithubusername/project-repo",
+    "youtube": "https://youtu.be/UI2js8J7dmc",
+    "details": "https://cs50.harvard.edu/web/2020/projects/final/capstone/"
+  },
+  {
+    "name": "HTML-CSS Project",
+    "description": "Designing and implementing the front-end of a website using HTML & CSS.",
+    "special": "",
+    "technologies": ["HTML", "CSS"],
+    "image": "media/images/HTML-CSS.PNG",
+    "github": "project.github_link",
+    "youtube": "media/videos/html-css.mp4",
+    "details": "comin_soon.html"
+  },
+  {
+    "name": "Todo List",
+    "description": "Designing and implementing a todo list application. Allows users to create, show, update, and delete their todo tasks.",
+    "special": "",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "media/images/Todo.PNG",
+    "github": "project.github_link",
+    "youtube": "media/videos/todo.mp4",
+    "details": "comin_soon.html"
+  },
+  {
+    "name": "Product App",
+    "description": "Designing and implementing Shopping application. Allows users to select, add, update, and delete their options to cart list.",
+    "special": "",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "image": "media/images/Shopping.PNG",
+    "github": "project.github_link",
+    "youtube": "media/videos/products.mp4",
+    "details": "comin_soon.html"
+  },
+  {
+    "name": "Notes App",
+    "description": "Designing and implementing application to fetch data from Rick and Morty API, display, search, and add to favourite characters.",
+    "special": "",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "image": "media/images/noteApp.PNG",
+    "github": "project.github_link",
+    "youtube": "media/videos/noteApp.mp4",
+    "details": "comin_soon.html"
+  },
+  {
+    "name": "Rick & Morty API",
+    "description": "Designing and implementing application to fetch data from Rick and Morty API, display, search, and add to favourite characters.",
+    "special": "",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "image": "media/images/RickMorty.PNG",
+    "github": "project.github_link",
+    "youtube": "media/videos/rick-morty.mp4",
+    "details": "comin_soon.html"
+  },
+  {
+    "name": "Booking Hotel App",
+    "description": "Designing and implementing application to fetch data from db.json file, display options, search new locations, and show on map.",
+    "special": "",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "image": "media/images/BookingHotel1.PNG",
+    "github": "project.github_link",
+    "youtube": "media/videos/booking.mp4",
+    "details": "comin_soon.html"
+  }
+]
