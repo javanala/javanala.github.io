@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Web Page</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="main__header">
+      <nav class="nav container">
+        <a href="#">
+          <img src="assets\images\logo.png" alt="" />
+        </a>
+        <div class="nav__toggler">
+          <div class="bar bar-one"></div>
+          <div class="bar bar-two"></div>
+          <div class="bar bar-three"></div>
+        </div>
+        <ul class="list nav__list">
+          <li class="nav__item"><a href="#">item 1</a></li>
+          <li class="nav__item"><a href="#">item 2</a></li>
+          <li class="nav__item"><a href="#">item 3</a></li>
+          <li class="nav__item"><a href="#">item 4</a></li>
+          <li class="nav__item cta">
+            <a href="#" class="btn btn--primary">download</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- END OF NAVBAR -->
+
+    <!-- HERO SECTION -->
+    <section class="hero-section block">
+      <picture>
+        <source
+          srcset="assets\images\banner.webp"
+          type="image/webp"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="assets\images\banner.jpg"
+          type="image/jpg"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="assets\images\banner-mobile.webp"
+          type="image/webp"
+          media="(max-width: 768px)"
+        />
+        <source
+          srcset="assets\images\banner-mobile.jpg"
+          type="image/jpg"
+          media="(max-width: 768px)"
+        />
+        <img alt="banner" src="assets\images\banner.jpg" class="banner-img" />
+      </picture>
+      <picture>
+        <source
+          srcset="assets\images\mockup-phone3.webp"
+          type="image/webp"
+          media="(min-width: 1024px)"
+        />
+        <source
+          srcset="assets\images\mockup-phone3.png"
+          type="image/png"
+          media="(min-width: 1024px)"
+        />
+        <img alt="" class="banner-phone" />
+      </picture>
+      <picture>
+        <source
+          srcset="assets\images\mockup-phone3.webp"
+          type="image/webp"
+          media="(min-width: 1024px)"
+        />
+        <source
+          srcset="assets\images\mockup-phone3.png"
+          type="image/png"
+          media="(min-width: 1024px)"
+        />
+        <img alt="" class="banner-phone" />
+      </picture>
+      <div class="hero-wrapper container">
+        <div class="intro-btn">
+          <h1>Title</h1>
+          <h2>This is service app</h2>
+          <div class="intro-wrapper">
+            <div class="intro-btn__p solid">
+              <span class="icone">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+              </span>
+              <p>Download first option</p>
+            </div>
+            <div class="intro-btn__p solid">
+              <span class="icone">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+              </span>
+              <p>download second option</p>
+            </div>
+            <div class="intro-btn__p transparent">
+              <span class="icone">
+                <i class="fa-solid fa-registered"></i>
+              </span>
+              <p>Register for group 1</p>
+            </div>
+            <div class="intro-btn__p transparent">
+              <span class="icone">
+                <i class="fa-solid fa-registered"></i>
+              </span>
+              <p>Register for group 2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF HERO  -->
+    <!-- SERVICES -->
+    <section
+      class="services container block"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h2 class="services__title block-heading">Services</h2>
+      <div class="service__tabs">
+        <a class="tab active" data-tab-target="nav-classic-tab">
+          <img src="assets\images\cc-classic.png" alt="tapsi-classic-icon" />
+          <p>Classic</p>
+        </a>
+        <a class="tab" data-tab-target="nav-tel-tab">
+          <img
+            src="assets\images\cc-tel.png"
+            aria-label="tel service icon"
+            alt="tapsi-tel-icon"
+          />
+          <p>Tel</p>
+        </a>
+        <a class="tab" data-tab-target="nav-line-tab">
+          <img src="assets\images\cc-line.png" alt="tapsi-line-icon" />
+          <p>Line</p>
+        </a>
+        <a class="tab" data-tab-target="nav-motopeyk-tab">
+          <img src="assets\images\cc-motopeyk.png" alt="motopeyk-icon" />
+          <p>Motopeyk</p>
+        </a>
+        <a class="tab" data-tab-target="nav-autopeyk-tab">
+          <img src="assets\images\cc-autopeyk.png" alt="autopeyk-icon" />
+          <p>Autopeyk</p>
+        </a>
+        <a class="tab" data-tab-target="nav-plus-tab">
+          <img src="assets\images\cc-plus.png" alt="tapsi-plus-icon" />
+          <p>Plus</p>
+        </a>
+        <a class="tab" data-tab-target="nav-hamyar-tab">
+          <img src="assets\images\cc-hamyar.png" alt="hamyar-icon" />
+          <p>Assist</p>
+        </a>
+      </div>
+
+      <div class="container">
+        <div class="tab-content active" id="nav-classic-tab">
+          <div class="feature__image">
+            <img src="assets\images\cc-classic.png" alt="" width="570" />
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">Classic</h3>
+            <p class="feature__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              dignissimos perferendis modi beatae ullam odio sapiente sed vero
+              velit nulla. Praesentium velit delectus voluptate molestiae cumque
+              distinctio voluptatem, optio temporibus veritatis vel dolores
+              impedit, consequuntur nam laborum quia illum ipsam?
+            </p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="nav-tel-tab">
+          <div class="feature__image">
+            <img src="assets\images\cc-tel.png" alt="" width="570" />
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">Tel</h3>
+            <p class="feature__text">
+              dignissimos perferendis modi beatae ullam odio sapiente sed vero
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              distinctio voluptatem, optio temporibus veritatis vel dolores
+              velit nulla. Praesentium velit delectus voluptate molestiae cumque
+              impedit, consequuntur nam laborum quia illum ipsam?
+            </p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="nav-line-tab">
+          <div class="feature__image">
+            <img src="assets\images\cc-line.png" alt="" width="570" />
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">Line</h3>
+            <p class="feature__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              velit nulla. Praesentium velit delectus voluptate molestiae cumque
+              dignissimos perferendis modi beatae ullam odio sapiente sed vero
+              distinctio voluptatem, optio temporibus veritatis vel dolores
+              impedit,laborum quia illum ipsam?
+            </p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="nav-motopeyk-tab">
+          <div class="feature__image">
+            <img src="assets\images\cc-motopeyk.png" alt="" width="570" />
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">Motopeyk</h3>
+            <p class="feature__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              dignissimos perferendis modi beatae ullam odio sapiente sed vero
+              disritatis vel dolores velit nulla. Praesentium velit delectus voluptate molestiae cumque
+              impedit, consequuntur nam laborum quia illum ipsam?
+            </p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="nav-autopeyk-tab">
+          <div class="feature__image">
+            <img src="assets\images\cc-autopeyk.png" alt="" width="570" />
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">Autopeyk</h3>
+            <p class="feature__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              distinctio voluptatem, optio temporibus veritatis vel dolores
+              velit nulla. Praesentium velit delectus voluptate molestiae cumque
+              dignissimos perferendis modi beatae ullam odio sapiente sed vero
+              impedit, consequuntur nam laborum quia illum ipsam?
+            </p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="nav-plus-tab">
+          <div class="feature__image">
+            <img src="assets\images\cc-plus.png" alt="" width="570" />
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">Plus</h3>
+            <p class="feature__text">
+              dignissimos perferendis modi beatae ullam odio sapiente sed vero
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              velit nulla. Praesentium velit delectus voluptate molestiae cumque
+              distinctio voluptatem, optio temporibus veritatis vel dolores
+              impedit, consequuntur nam laborum quia illum ipsam?
+            </p>
+          </div>
+        </div>
+
+        <div class="tab-content" id="nav-hamyar-tab">
+          <div class="feature__image">
+            <img src="assets\images\cc-hamyar.png" alt="" width="570" />
+          </div>
+          <div class="feature__detail">
+            <h3 class="feature__title">Assist</h3>
+            <p class="feature__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              dignissimos perferendis modi beatae ullam odio sapiente sed vero
+              distinctio voluptatem, optio temporibus veritatis vel dolores
+              velit nulla. Praesentium velit delectus voluptate molestiae cumque
+              impedit, consequuntur nam laborum quia illum ipsam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF SERVICES -->
+
+    <!-- FEATURE  -->
+    <section
+    class="feature container block change"
+    data-aos="fade-left"
+    data-aos-duration="2000"
+  >
+    <div
+      class="feature__image"
+      style=""
+    >
+      <img src="assets\images\credit.JPG" alt="livingroom" />
+    </div>
+    <div class="feature__detail" style="height: auto">
+      <h2 class="feature__title">Title</h2>
+      <p class="feature__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+        laboriosam suscipit voluptatum quam beatae, expedita sequi, nemo a
+        quibusdam cupiditate minus. Omnis, ullam, harum molestiae earum
+        mollitia nulla optio asperiores vero a suscipit enim cupiditate
+        similique odio ex, doloremque consequuntur.
+      </p>
+      <button class="btn btn--primary">submit button</button>
+    </div>
+  </section>
+
+    <section
+      class="feature container block"
+      data-aos="fade-right"
+      data-aos-duration="1000"
+    >
+      <div
+        class="feature__image"
+        style=""
+      >
+        <img src="assets\images\stat.JPG" alt="livingroom" />
+      </div>
+      <div class="feature__detail" style="height: auto">
+        <h2 class="feature__title">Title</h2>
+        <p class="feature__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+          laboriosam suscipit voluptatum quam beatae, expedita sequi, nemo a
+          quibusdam cupiditate minus. Omnis, ullam, harum molestiae earum
+          mollitia nulla optio asperiores vero a suscipit enim cupiditate
+          similique odio ex, doloremque consequuntur.
+        </p>
+        <button class="btn btn--primary">submit button</button>
+      </div>
+    </section>
+
+ 
+
+    <!-- ENE OF FEATURE  -->
+
+    <!-- PLAN -->
+    <section
+      class="container block"
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-sine"
+    >
+      <h2 class="block__heading">Plans</h2>
+      <div class="block-plan container block">
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <span class="plan__introduction">
+                <span class="plan__name">Normal</span>
+                <span class="badge">off 10%</span>
+              </span>
+              <span class="plan__price">20$</span>
+              <span class="plan__billing-cycle">monthly/$</span>
+              <span class="plan__discription">Normal service</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Limit options</li>
+                <li class="list__item">Delays happen</li>
+                <li class="list__item">No cancelation</li>
+              </ul>
+              <button class="btn btn--secondary btn--block">order</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan plan--popular">
+          <div class="card card--primary">
+            <header class="card__header">
+              <span class="plan__introduction">
+                <span class="plan__name">Economical</span>
+                <span class="badge badge--primary">off 15%</span>
+              </span>
+
+              <span class="plan__price">39$</span>
+              <span class="plan__billing-cycle">monthly/$</span>
+              <span class="plan__discription">Optimal service</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Reasonable price</li>
+                <li class="list__item">On time</li>
+                <li class="list__item">Clean</li>
+              </ul>
+              <button class="btn btn--primary btn--block">order</button>
+            </div>
+          </div>
+        </div>
+        <div class="plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+              <span class="plan__introduction">
+                <span class="plan__name">Premium</span>
+                <span class="badge">off 10%</span>
+              </span>
+
+              <span class="plan__price">50$</span>
+              <span class="plan__billing-cycle">monthly/$</span>
+              <span class="plan__discription">Brand new high model service</span>
+            </header>
+            <div class="card__body">
+              <ul class="list list--tick">
+                <li class="list__item">Luxury</li>
+                <li class="list__item">High price</li>
+                <li class="list__item">Brand new</li>
+              </ul>
+              <button class="btn btn--secondary btn--block">order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF PLAN -->
+    <!-- TRAVEL -->
+         <section class="container travel block">
+          <h2 class="block__heading">Travels</h2>
+      <div class="travel__slides">
+        <div class="travel__slide">
+          <div class="slide__img">
+            <img class="main-travel-image" src="assets\images\8-82164_soothing-background.jpg" alt="" />
+          </div>
+
+          <div class="slide__detail">
+            <div class="slide__header">
+              <span class="badge badge--primary">test</span>
+              <p>informaton of &bull; place</p>
+            </div>
+            <p class="slide__title">Travel to beach</p>
+            <div class="slide__icons">
+              <div class="1">
+                <i class="fa-solid fa-heart"></i>
+                <span>12</span>
+                <i class="fa-solid fa-eye"></i>
+                <span>24</span>
+              </div>
+              <div class="2">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+              </div>
+            </div>
+
+            <div class="avatar-group">
+              <div class="avatar">
+                <img src="assets\images\avatar-2.jpeg" alt="" />
+              </div>
+
+              <div class="avatar">
+                <img src="assets\images\avatar-3.jpg" alt="" />
+              </div>
+
+              <div class="avatar">
+                <img src="assets\images\avatar-1.jpg" alt="" />
+              </div>
+
+              <div class="hidden-avatar">+10</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="travel__slide">
+          <div class="slide__img">
+            <img class="main-travel-image" src="assets\images\image2.jpg" alt="" />
+          </div>
+
+          <div class="slide__detail">
+            <div class="slide__header">
+              <span class="badge badge--primary">test</span>
+              <p>informaton of &bull; place</p>
+            </div>
+            <p class="slide__title">Travel to mountain</p>
+            <div class="slide__icons">
+              <div class="1">
+                <i class="fa-solid fa-heart"></i>
+                <span>12</span>
+                <i class="fa-solid fa-eye"></i>
+                <span>24</span>
+              </div>
+              <div class="2">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+              </div>
+            </div>
+            <div class="avatar-group">
+              <div class="avatar">
+                <img src="assets\images\avatar-1.jpg" alt="" />
+              </div>
+
+              <div class="avatar">
+                <img src="assets\images\avatar-2.jpeg" alt="" />
+              </div>
+
+              <div class="avatar">
+                <img src="assets\images\avatar-3.jpg" alt="" />
+              </div>
+
+              <div class="hidden-avatar">+22</div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="travel__slide">
+          <div class="slide__img">
+            <img class="main-travel-image"  src="assets\images\8-82164_soothing-background.jpg" alt="" />
+          </div>
+
+          <div class="slide__detail">
+            <div class="slide__header">
+              <span class="badge badge--primary">test</span>
+              <p>informaton of &bull; place</p>
+            </div>
+            <p class="slide__title">Travel to beach</p>
+            <div class="slide__icons">
+              <div class="1">
+                <i class="fa-solid fa-heart"></i>
+                <span>12</span>
+                <i class="fa-solid fa-eye"></i>
+                <span>24</span>
+              </div>
+              <div class="2">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+              </div>
+            </div>
+            <div class="avatar-group">
+              <div class="avatar">
+                <img src="assets\images\avatar-3.jpg" alt="" />
+              </div>
+
+              <div class="avatar">
+                <img src="assets\images\avatar-1.jpg" alt="" />
+              </div>
+
+              <div class="avatar">
+                <img src="assets\images\avatar-2.jpeg" alt="" />
+              </div>
+              <div class="hidden-avatar">+18</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF TRAVEL-->
+    <!-- SELECT OPTIONS-->
+    <section class="container block">
+      <h2>Select Options</h2>
+      <div class="select-type">
+          <div class="select-control">
+              <input type="radio" name="webinar" id="type-A">
+              <label for="type-A">Public</label>
+          </div>
+
+          <div class="select-control">
+              <input type="radio" name="webinar" id="type-B">
+              <label for="type-B">Private</label>
+          </div>
+      </div>
+  </section>
+    <!-- END OF SELECT OPTIONS-->
+
+    <!-- ACORDIAN -->
+    <section class="container block">
+      <h2>Detail of the person</h2>
+      <div class="accordian-wrapper">
+        <div class="accordian__intro">
+          <h2 class="accordian__heading">Resume</h2>
+          <span>
+            <span> edit </span>
+            <span>
+              <i class="far fa-edit"></i>
+            </span>
+          </span>
+        </div>
+
+        <div class="accordian">
+          <header class="accordian__header">
+            <h2 class="accordian__heading">Work experience</h2>
+            <span class="icon">
+              <i class="fa-solid fa-circle-chevron-up"></i>
+            </span>
+          </header>
+          <div class="accordian__content">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus et delectus excepturi laborum voluptatibus dolorem.
+              Quaerat voluptatibus harum explicabo fugiat?
+            </p>
+          </div>
+        </div>
+
+        <div class="accordian">
+          <header class="accordian__header">
+            <h2 class="accordian__heading">Languages</h2>
+            <span class="icon">
+              <i class="fa-solid fa-circle-chevron-up"></i>
+            </span>
+          </header>
+          <div class="accordian__content">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus et delectus excepturi laborum voluptatibus dolorem.
+              Quaerat voluptatibus harum explicabo fugiat?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      const accordianHeaders = document.querySelectorAll(".accordian__header");
+      const accordian = document.querySelector(".accordian");
+      accordianHeaders.forEach((item) => {
+        item.addEventListener("click", (e) => {
+          console.log(e.target.parentElement);
+          e.target.parentElement.classList.toggle("accordian__expanded");
+        });
+      });
+    </script>
+    <!-- END OF ACORDIAN -->
+
+
+
+
+
+    <!-- CONTACT US -->
+    <section class="container block">
+      <h2 class="contact-us__header">contact us</h2>
+      <div class="contact-us">
+        <div class="contact-us__socila">
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="assets\images\svg-sprite.svg#linkedin"></use>
+            </svg>
+          </span>
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="assets\images\svg-sprite.svg#twitter"></use>
+            </svg>
+          </span>
+          <span class="icon-container">
+            <svg class="icon">
+              <use xlink:href="assets\images\svg-sprite.svg#telegram"></use>
+            </svg>
+          </span>
+        </div>
+        <div class="contact-us__icon">
+          <div class="icon-holder">
+            <span class="icon-container">
+              <svg class="icon">
+                <use
+                  xlink:href="assets\images\svg-sprite.svg#location"
+                ></use></svg
+            ></span>
+            <span class="icon-holder__label"
+              >address:Lorem ipsum, dolor sit amet consectetur test text.
+            </span>
+          </div>
+
+          <div class="icon-holder">
+            <span class="icon-container">
+              <svg class="icon">
+                <use xlink:href="assets\images\svg-sprite.svg#phone"></use></svg
+            ></span>
+            <span class="icon-holder__label">123456789</span>
+          </div>
+
+          <div class="icon-holder">
+            <span class="icon-container">
+              <svg class="icon">
+                <use xlink:href="assets\images\svg-sprite.svg#envelope"></use>
+              </svg>
+            </span>
+            <span class="icon-holder__label">name@gmail.com</span>
+          </div>
+        </div>
+        <div class="contact-us__map">
+          <img src="assets\images\map.JPG" alt="" />
+        </div>
+        <div class="contact-us__form">
+          <div class="form-wrapper">
+            <h3>Contact Us</h3>
+            <form>
+              <input type="text" placeholder="First name and last name" />
+              <input type="text" placeholder="Enter your email address" />
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <button type="submit" class="btn btn--primary">send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF CONTACT US -->
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="container footer">
+        <div class="footer__item">
+          <h6>my site</h6>
+          <a href="">About Us</a>
+          <a href="">Contact</a>
+          <a href="">Career</a>
+          <a href="">Related websites</a>
+        </div>
+        <div class="footer__item">
+          <h6>my site</h6>
+          <a href="">my site item number 1</a>
+          <a href="">my site item number 2</a>
+          <a href="">my site item number 3</a>
+          <a href="">my site item number 4</a>
+        </div>
+        <div class="footer__item">
+          <h6>my site</h6>
+          <a href="">my site item number 1</a>
+          <a href="">my site item number 2</a>
+          <a href="">my site item number 3</a>
+          <a href="">my site item number 4</a>
+        </div>
+        <div class="footer__item">
+          <h6>my site</h6>
+          <a href="">my site item number 1</a>
+          <a href="">my site item number 2</a>
+          <a href="">my site item number 3</a>
+          <a href="">my site item number 4</a>
+        </div>
+        <div class="footer__item">
+          <h6>my site</h6>
+          <a href="">my site item number 1</a>
+          <a href="">my site item number 2</a>
+          <a href="">my site item number 3</a>
+          <a href="">my site item number 4</a>
+        </div>
+        <div class="footer__item logo">
+          <div class="footer__logo">
+            <img src="assets\images\logo.png" alt="" />
+          </div>
+          <div class="footer__logo">
+            <img src="assets\images\logo.png" alt="" />
+          </div>
+          <div class="footer__logo">
+            <img src="assets\images\logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- END OF FOOTER -->
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
