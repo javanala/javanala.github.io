@@ -1,0 +1,177 @@
+{
+  "group_1": [
+    {
+      "name": "Google Search",
+      "description": "Design a front-end for Google Search.",
+      "technologies": ["HTML", "CSS"],
+      "image": "media/images/p0.JPG",
+      "github": "https://github.com/javanala/web-development-projects/tree/main/cs50w/project-0",
+      "youtube": "https://youtu.be/1mLwYOyaO60",
+      "details": "https://cs50.harvard.edu/web/2020/projects/0/search/"
+    },
+    {
+      "name": "Wikipedia",
+      "description": "Design a Wikipedia-like online encyclopedia.",
+      "technologies": ["HTML", "CSS", "Python", "Django"],
+      "image": "media/images/p1.JPG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/SsY7fT3l7js",
+      "details": "https://cs50.harvard.edu/web/2020/projects/1/wiki/"
+    },
+    {
+      "name": "Commerce",
+      "description": "Design an eBay-like e-commerce auction site.",
+      "technologies": ["HTML", "CSS", "Python", "Django"],
+      "image": "media/images/p2.JPG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/nLsAP4aouaQ",
+      "details": "https://cs50.harvard.edu/web/2020/projects/2/commerce/"
+    },
+    {
+      "name": "Mail",
+      "description": "Design a front-end for an email client that makes send and receive API calls.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Python", "Django"],
+      "image": "media/images/p3.JPG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/MMuURDqjeFo",
+      "details": "https://cs50.harvard.edu/web/2020/projects/3/mail/"
+    },
+    {
+      "name": "Network",
+      "description": "Design a Twitter-like social network website to make posts and follow users.",
+      "technologies": [
+        "HTML/CSS",
+        "JavaScript",
+        "Python",
+        "Django",
+        "Bootstrap"
+      ],
+      "image": "media/images/p4.JPG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/Jpjk2Iz_4qc",
+      "details": "https://cs50.harvard.edu/web/2020/projects/4/network/"
+    },
+    {
+      "name": "Capstone Project",
+      "description": "Design a full-stack Capstone project that combines multiple elements from the course.",
+      "special": "My passion applying what I've learned. 😊",
+      "technologies": ["HTML", "CSS", "JavaScript", "Python", "Django"],
+      "image": "media/images/p5.PNG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/UI2js8J7dmc",
+      "details": "https://cs50.harvard.edu/web/2020/projects/final/capstone/"
+    }
+  ],
+  "group_2": [
+    {
+      "name": "HTML-CSS Project",
+      "description": "Designing and implementing the front-end of a website using HTML & CSS.",
+      "technologies": ["HTML", "CSS"],
+      "image": "media/images/HTML-CSS.PNG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/P_DvL2hEyjM",
+      "details": "/HTML-CSS/index.html"
+    },
+    {
+      "name": "Todo List",
+      "description": "Designing and implementing a todo list application. Allows users to create, show, update, and delete their todo tasks.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "media/images/Todo.PNG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/aiRF3tIhkQc",
+      "details": "/todo/index.html"
+    },
+    {
+      "name": "Product App",
+      "description": "Designing and implementing Shopping application. Allows users to select, add, update, and delete their options to cart list.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "media/images/Shopping.PNG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/PKhnw4zSodw",
+      "details": "comin_soon.html"
+    },
+    {
+      "name": "Notes App",
+      "description": "Designing and implementing application to fetch data from Rick and Morty API, display, search, and add to favourite characters.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "image": "media/images/noteApp.PNG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/CD2J2qrvzfI",
+      "details": "comin_soon.html"
+    },
+    {
+      "name": "Rick & Morty API",
+      "description": "Designing and implementing application to fetch data from Rick and Morty API, display, search, and add to favourite characters.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "image": "media/images/RickMorty.PNG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/dpRAi_dLZSE",
+      "details": "comin_soon.html"
+    },
+    {
+      "name": "Booking Hotel App",
+      "description": "Designing and implementing application to fetch data from db.json file, display options, search new locations, and show on map.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "image": "media/images/BookingHotel1.PNG",
+      "github": "comin_soon.html",
+      "youtube": "https://youtu.be/-90ZdRdgxDM",
+      "details": "comin_soon.html"
+    }
+  ],
+
+  "group_3": [
+    {
+      "name": "3D Object Model",
+      "image": "media/images/3d/109.jpg",
+      "description": "3D models can be used to transform 2D images of products into 3D models. This can help customers better understand the product's details, such as its size, color, and texture.",
+      "technologies": ["3Ds Max"],
+      "images": ["media/images/3d/109.jpg", "media/images/3d/3.jpg"]
+    },
+
+    
+    {
+      "name": "3D Building Models",  
+      "image": "media/images/3d/1.jpg",
+      "technologies": ["3Ds Max"],
+      "description": "3D models can be used to showcase building designs and landscapes in a realistic way.",
+
+      "images": ["media/images/3d/1.jpg", "media/images/3d/2.jpg"]
+    },
+    {
+      "name": "3D Building Models",      
+      "image": "media/images/3d/07.bmp",
+      "technologies": ["3Ds Max"],
+      "description": "3D models can be used to showcase building designs and landscapes in a realistic way.",
+      "images": [
+        "media/images/3d/07.bmp",
+        "media/images/3d/08.bmp",
+        "media/images/3d/05.bmp"
+      ]
+    },
+    {
+      "name": "3D Building Models",  
+      "image": "media/images/3d/111.jpg",
+      "technologies": ["3Ds Max"],
+      "description": "3D models can be used to showcase building designs and landscapes in a realistic way. ",
+      "images": [
+        "media/images/3d/111.jpg",
+        "media/images/3d/177.jpg",
+        "media/images/3d/188.jpg",
+        "media/images/3d/8888.jpg"
+      ]
+    },
+    {
+      "name": "Photoshop Logo & Poster",
+      "image": "media/images/3d/logo.jpg",
+      "technologies": ["Photoshop"],
+      "description": "2D logo and poster designs in photoshop",
+      "images": ["media/images/3d/logo.jpg", "media/images/3d/template.jpg"]
+    },
+    { "name": "3D Building Models & Poster",  
+      "image": "media/images/3d/p1.jpg",
+      "technologies": ["3Ds Max", "Photoshop"],
+      "description": "3D models can be used to showcase building designs and landscapes in a realistic way.",
+      "images": ["media/images/3d/p1.jpg", "media/images/3d/p2.jpg"]
+    }
+  ]
+}

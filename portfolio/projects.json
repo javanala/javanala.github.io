@@ -65,8 +65,8 @@
     "special": "",
     "technologies": ["HTML", "CSS"],
     "image": "media/images/HTML-CSS.PNG",
-    "github": "project.github_link",
-    "youtube": "media/videos/html-css.mp4",
+    "github": "comin_soon.html",
+    "youtube": "https://youtu.be/P_DvL2hEyjM",
     "details": "/HTML-CSS/index.html"
   },
   {
@@ -75,8 +75,8 @@
     "special": "",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "image": "media/images/Todo.PNG",
-    "github": "project.github_link",
-    "youtube": "media/videos/todo.mp4",
+    "github": "comin_soon.html",
+    "youtube": "https://youtu.be/aiRF3tIhkQc",
     "details": "/todo/index.html"
   },
   {
@@ -85,7 +85,7 @@
     "special": "",
     "technologies": ["HTML", "CSS", "JavaScript"],
     "image": "media/images/Shopping.PNG",
-    "github": "project.github_link",
+    "github": "comin_soon.html",
     "youtube": "media/videos/products.mp4",
     "details": "comin_soon.html"
   },
@@ -95,7 +95,7 @@
     "special": "",
     "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "image": "media/images/noteApp.PNG",
-    "github": "project.github_link",
+    "github": "comin_soon.html",
     "youtube": "media/videos/noteApp.mp4",
     "details": "comin_soon.html"
   },
@@ -105,7 +105,7 @@
     "special": "",
     "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "image": "media/images/RickMorty.PNG",
-    "github": "project.github_link",
+    "github": "comin_soon.html",
     "youtube": "media/videos/rick-morty.mp4",
     "details": "comin_soon.html"
   },
@@ -115,7 +115,7 @@
     "special": "",
     "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "image": "media/images/BookingHotel1.PNG",
-    "github": "project.github_link",
+    "github": "comin_soon.html",
     "youtube": "media/videos/booking.mp4",
     "details": "comin_soon.html"
   }
