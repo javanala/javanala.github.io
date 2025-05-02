@@ -180,7 +180,7 @@
       "name": "Data Analysis & Data Visualization",
       "description": "Data analysis & visualization for vehicle manufacturing dataset",
       "technologies": ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
-      "image": "media/images/Cars.PNG",
+      "image": "media/images/Cars.png",
       "github": "https://github.com/javanala/machine-learning/tree/main/data-analysis-projects",
       "youtube": "comin_soon.html",
       "details": "https://github.com/javanala/machine-learning/blob/main/data-analysis-projects/vehicle-manufacturing-dataset-analysis.pptx"
