@@ -176,6 +176,18 @@ document.addEventListener("DOMContentLoaded", function() {
                   projectsGroup3Container.appendChild(projectCard);
               });
           }
+
+             // Group 4 projects container
+             const projectsResearchContainer = document.getElementById('projects-research-container');
+             if (projectsResearchContainer) {  // Check if the container exists
+                 const group4Projects = data.group_4;  // Assuming the JSON is structured
+                 group4Projects.forEach(project => {
+                     const projectCard = createProjectCard(project);
+                     projectsResearchContainer.appendChild(projectCard);
+                 });
+             }
+
+          
       })
       .catch(error => console.error('Error loading projects:', error));
 });

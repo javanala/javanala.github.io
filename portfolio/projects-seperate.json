@@ -173,5 +173,21 @@
       "description": "3D models can be used to showcase building designs and landscapes in a realistic way.",
       "images": ["media/images/3d/p1.jpg", "media/images/3d/p2.jpg"]
     }
+  ],
+
+  "group_4": [
+    {
+      "name": "Data Analysis & Data Visualization",
+      "description": "Data analysis & visualization for vehicle manufacturing dataset",
+      "technologies": ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn"],
+      "image": "media/images/Cars.PNG",
+      "github": "https://github.com/javanala/machine-learning/tree/main/data-analysis-projects",
+      "youtube": "comin_soon.html",
+      "details": "https://github.com/javanala/machine-learning/blob/main/data-analysis-projects/vehicle-manufacturing-dataset-analysis.pptx"
+    }
+   
+ 
   ]
+
+  
 }
