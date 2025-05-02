@@ -128,9 +128,8 @@
       "images": ["media/images/3d/109.jpg", "media/images/3d/3.jpg"]
     },
 
-    
     {
-      "name": "3D Building Models",  
+      "name": "3D Building Models",
       "image": "media/images/3d/1.jpg",
       "technologies": ["3Ds Max"],
       "description": "3D models can be used to showcase building designs and landscapes in a realistic way.",
@@ -138,7 +137,7 @@
       "images": ["media/images/3d/1.jpg", "media/images/3d/2.jpg"]
     },
     {
-      "name": "3D Building Models",      
+      "name": "3D Building Models",
       "image": "media/images/3d/07.bmp",
       "technologies": ["3Ds Max"],
       "description": "3D models can be used to showcase building designs and landscapes in a realistic way.",
@@ -149,7 +148,7 @@
       ]
     },
     {
-      "name": "3D Building Models",  
+      "name": "3D Building Models",
       "image": "media/images/3d/111.jpg",
       "technologies": ["3Ds Max"],
       "description": "3D models can be used to showcase building designs and landscapes in a realistic way. ",
@@ -167,7 +166,8 @@
       "description": "2D logo and poster designs in photoshop",
       "images": ["media/images/3d/logo.jpg", "media/images/3d/template.jpg"]
     },
-    { "name": "3D Building Models & Poster",  
+    {
+      "name": "3D Building Models & Poster",
       "image": "media/images/3d/p1.jpg",
       "technologies": ["3Ds Max", "Photoshop"],
       "description": "3D models can be used to showcase building designs and landscapes in a realistic way.",
@@ -185,9 +185,5 @@
       "youtube": "comin_soon.html",
       "details": "https://github.com/javanala/machine-learning/blob/main/data-analysis-projects/vehicle-manufacturing-dataset-analysis.pptx"
     }
-   
- 
   ]
-
-  
 }
